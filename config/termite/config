@@ -1,0 +1,30 @@
+[options]
+audible_bell = false
+allow_bold = true
+clickable_url = true
+font = CQ Mono 13
+scrollback_lines = -1
+cursor_blink = system
+cursor_shape = block
+browser = firefox
+
+[colors]
+background = rgba(23, 23, 23, 0.55)
+cursor = #fd5f00
+foreground = #f8f8f8
+color0 =  #171717
+color1 = #ddd048
+color2 = #39ff14
+color3 = #f3f315
+color4 = #4666ff
+color5 = #ff2965
+color6 = #0a9c9c
+color7 = #ebebeb
+color8 = #38252c
+color9 = #ff0000
+color10 = #22d900
+color11 = #e1a126
+color12 = #289cd5
+color13 = #ff2491
+color14 = #0a9b81
+color15 = #f8f8f8

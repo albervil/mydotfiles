@@ -1,0 +1,49 @@
+! COLOR PALETTE HERE !
+*.background:   #171717
+*.cursorColor:  #fd5f00
+*.borderColor:  #fd5f00
+*.foreground:   #f8f8f8
+*.color0:       #171717
+*.color1:       #dd0048
+*.color2:       #39ff14
+*.color3:       #f3f315
+*.color4:       #4666ff
+*.color5:       #ff2965
+*.color6:       #0a9c9c
+*.color7:       #ebebeb
+*.color8:       #38252c
+*.color9:       #ff0000
+*.color10:      #22d900
+*.color11:      #e1a126
+*.color12:      #289cd5
+*.color13:      #ff2491
+*.color14:      #0a9b81
+*.color15:      #f8f8f8
+
+
+
+*fading:                15
+*fadeColor:             black
+*pointerColorBackground:#2B2C2B
+*pointerColorForeground:#16A085
+
+! ROFI SETUP HERE !
+
+! Enable the extended coloring options
+rofi.color-enabled: true
+!                  bg       border   separator
+rofi.color-window: #171717, #171717, #d81765
+!                  bg       fg       bg-alt   hl-bg    hl-fg
+rofi.color-normal: #171717, #f8f8f8, #171717, #171717, #16b1fb
+rofi.color-active: #171717, #f8f8f8, #171717, #171717, #16b1fb
+rofi.color-urgent: #171717, #f8f8f8, #171717, #171717, #16b1fb
+
+rofi.separator-style: solid
+rofi.sidebar-mode: false
+rofi.lines: 8
+rofi.font: CQ Mono 18
+rofi.bw: 2
+rofi.columns: 2
+rofi.padding: 5
+rofi.fixed-num-lines: true
+rofi.hide-scrollbar: true

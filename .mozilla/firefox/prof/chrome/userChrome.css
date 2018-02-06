@@ -1,0 +1,54 @@
+#main-window #nav-bar {
+  //display: none !important;
+  border-color: #0a141c !important;
+  background-color: #0a141c !important;
+  color: #e9e75c !important;
+}
+
+#main-window #urlbar {
+  border-color: #8230a7 !important;
+  background-color: #0a141c !important;
+  color: #fff !important;
+}
+
+/* tab top border roundness */
+#main-window #TabsToolbar .tabbrowser-tab,
+#main-window #TabsToolbar .tabbrowser-tab .tab-stack,
+#main-window #TabsToolbar .tabbrowser-tab .tab-background,
+#main-window #TabsToolbar .tabbrowser-tab .tab-content {
+  background-color: #0a141c !important;
+}
+
+#main-window #TabsToolbar .tabbrowser-tab[selected] .tab-label {
+  color: #8ff586;
+  font-weight: bold;
+}
+
+#main-window[privatebrowsingmode=temporary] #nav-bar {
+  //display: none !important;
+  border-color: #841ebe !important;
+  background-color: #841ebe !important;
+  color: #fff !important;
+}
+
+#main-window[privatebrowsingmode=temporary] #urlbar {
+  border-color: #841ebe !important;
+  background-color: #841ebe !important;
+  color: #fff !important;
+}
+
+/* tab top border roundness */
+#main-window[privatebrowsingmode=temporary] #TabsToolbar .tabbrowser-tab,
+#main-window[privatebrowsingmode=temporary] #TabsToolbar .tabbrowser-tab .tab-stack,
+#main-window[privatebrowsingmode=temporary] #TabsToolbar .tabbrowser-tab .tab-background,
+#main-window[privatebrowsingmode=temporary] #TabsToolbar .tabbrowser-tab .tab-content {
+  background-color: #841ebe !important;
+  //border-top-left-radius: 8px !important;
+  //border-top-right-radius: 8px !important;
+}
+
+/* remove colored line above each tab */
+#main-window #TabsToolbar .tabbrowser-tab .tab-line {
+  visibility: hidden;
+}
+
